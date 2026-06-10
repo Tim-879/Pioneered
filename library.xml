@@ -17,6 +17,9 @@
                 <ObjectName>SearchBox</ObjectName>
                 <Size>0me,40max</Size>
               </SearchBox>
+              <WidgetGroup>
+                <SizePolicy>e,me</SizePolicy>
+              </WidgetGroup>
               <PushButton>
                 <ObjectName>SidebarButton</ObjectName>
                 <Size>80p,40p</Size>
