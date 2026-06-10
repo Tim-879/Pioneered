@@ -76,6 +76,7 @@
           </WidgetGroup>
         </Children>
       </WidgetGroup>
+      <!--
       <WidgetGroup>
         <ObjectName>Decks</ObjectName>
         <Layout>horizontal</Layout>
@@ -89,6 +90,7 @@
           </Template>
         </Children>
       </WidgetGroup>
+      -->
       
     </Children>
   </WidgetGroup>
