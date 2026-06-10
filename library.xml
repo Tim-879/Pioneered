@@ -33,6 +33,22 @@
                   <ConfigKey>[Sidebar],sidebar_visible</ConfigKey>
                 </Connection>
               </PushButton>
+              <PushButton>
+                <ObjectName>ShowDecksButton</ObjectName>
+                <Size>100p,40p</Size>
+                <NumberStates>2</NumberStates>
+                <State>
+                  <Number>0</Number>
+                  <Text>Show Decks</Text>
+                </State>
+                <State>
+                  <Number>1</Number>
+                  <Text>Hide Decks</Text>
+                </State>
+                <Connection>
+                  <ConfigKey>[Library],show_decks</ConfigKey>
+                </Connection>
+              </PushButton>
             </Children>
           </WidgetGroup>
           <WidgetGroup>
@@ -76,7 +92,6 @@
           </WidgetGroup>
         </Children>
       </WidgetGroup>
-      <!--
       <WidgetGroup>
         <ObjectName>Decks</ObjectName>
         <Layout>horizontal</Layout>
@@ -89,8 +104,11 @@
             <SetVariable name="channel">2</SetVariable>
           </Template>
         </Children>
+        <Connection>
+          <ConfigKey>[Library],show_decks</ConfigKey>
+          <BindProperty>visible</BindProperty>
+        </Connection>
       </WidgetGroup>
-      -->
       
     </Children>
   </WidgetGroup>

@@ -8,6 +8,7 @@
 		<license>GPL</license>
 		<attributes>
 			<attribute config_key="[Master],num_decks">2</attribute>
+			<attribute persist="true" config_key="[Library],show_decks">0</attribute>
 			<attribute persist="true" config_key="[Master],maximize_library">0</attribute>
 			<attribute persist="true" config_key="[Master],skin_settings">0</attribute>
 			<attribute persist="true" config_key="[Microphone],show_microphone">0</attribute>
