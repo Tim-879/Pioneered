@@ -347,77 +347,7 @@ WLabel {
 /************************************************************************/
 /*     Waveforms                                                        */
 /************************************************************************/
-
-#WaveformInfo {
-  margin-right: 10px;
-}
-
-#WaveformInfo_Header {
-  background-color: #32323c;
-  border-top-right-radius: 10px 25px;
-  padding-right: 2px;
-}
-
-#WaveformInfo_Header[highlight="1"] {
-  border: 2px solid #e5e6ea;
-}
-
-#WaveformInfo_Title,
-#WaveformInfo_Key,
-#WaveformInfo_Bars {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-#WaveformInfo_Data_Container,
-#WaveformInfo_Key_Container,
-#WaveformInfo_Bars_Container,
-#WaveformInfo_Loopsize_Container {
-  qproperty-layoutAlignment: 'AlignLeft | AlignTop';
-}
-
-#WaveformInfo_Key_Icon {
-  background-color: #e5e6ea;
-  border-radius: 2px;
-  font-size: 14px;
-  margin: 4px;
-  padding: -6px -6px -3px -2px;
-}
-
-#WaveformInfo_Loop_Icon {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 2px;
-}
-
-#WaveformInfo_BeatloopSizeSpinBox {
-  margin: 3px;
-  padding: -4px -4px 0px -8px;
-}
-
-WBeatSpinBox {
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: #000000;
-}
-
-WBeatSpinBox::down-arrow,
-WBeatSpinBox::up-arrow,
-WBeatSpinBox::down-button,
-WBeatSpinBox::up-button {
-  width: 0px;
-  height: 0px;
-  color: #000000;
-  background-color: #000000;
-}
-
-#WaveformInfo_KeylockButton {
-  image: url(skin:icons/keylock.svg) no-repeat center center;
-}
-
+/* Waveforms removed */
 #WaveformInfo_QuantizeButton {
   image: url(skin:icons/quantize.svg) no-repeat center center;
 }
